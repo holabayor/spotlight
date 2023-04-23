@@ -6,11 +6,13 @@ const Header = () => {
   return (
     <>
       <header className="wrapper">
-        <nav className="flex items-center justify-between p-8">
-          <AiOutlineSearch className=" p-0" />
-          <img src={logo} alt="logo" className="w-[8rem]" />
+        <nav className="mx-4 flex items-center justify-between py-8">
+          <AiOutlineSearch className="w-[32px] p-0" />
+          <a href="/">
+            <img src={logo} alt="logo" className="w-[8rem]" />
+          </a>
           <svg
-            className="w-16 p-0"
+            className="w-[32px] p-0"
             aria-hidden="true"
             focusable="false"
             xmlns="http://www.w3.org/2000/svg"
